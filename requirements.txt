@@ -1,0 +1,23 @@
+# Core dependencies
+newsapi-python
+yfinance
+transformers
+torch
+
+# Data processing
+pandas
+numpy
+
+# Visualization
+plotly
+dash
+dash-bootstrap-components
+
+# Web Server
+flask
+flask-cors
+
+# Utilities
+python-dotenv
+requests
+
