@@ -1,4 +1,4 @@
-# 📈 News-Based Algorithmic Trading Bot
+# News-Based Algorithmic Trading Bot
 
 An intelligent trading bot that analyzes financial news sentiment using NLP to make automated trading decisions. The system backtests strategies against historical data and provides an interactive dashboard to visualize performance.
 
@@ -246,4 +246,4 @@ MIT License - feel free to use this project for learning and experimentation.
 
 ---
 
-**Happy Trading! 📈🚀**
+**Happy Trading!**
