@@ -2,10 +2,10 @@
 
 An intelligent trading bot that analyzes financial news sentiment using NLP to make automated trading decisions. The system backtests strategies against historical data and provides an interactive dashboard to visualize performance.
 
-## 🚀 Quick Start (3 Minutes)
+##  Quick Start (3 Minutes)
 
 ### 1. Get FREE API Key
-👉 **https://newsapi.org/register**
+ **https://newsapi.org/register**
 - Sign up (email + password)
 - Copy your API key
 
@@ -37,7 +37,7 @@ Open **http://localhost:5000** in your browser.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Sentiment Analysis**: Uses DistilBERT NLP model to analyze financial news headlines
 - **Automated Trading**: Makes buy/sell decisions based on sentiment thresholds
@@ -46,19 +46,19 @@ Open **http://localhost:5000** in your browser.
 - **Performance Comparison**: Strategy vs Buy & Hold benchmark
 - **Multiple Assets**: Support for stocks, ETFs, and cryptocurrencies
 
-## 🎯 Strategy
+##  Strategy
 
 The bot implements a simple yet effective sentiment-based strategy:
 - **BUY** when average news sentiment > +0.5 (positive news)
 - **SELL** when average news sentiment < -0.5 (negative news)
 - **HOLD** otherwise
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.8 or higher
 - NewsAPI key (free tier available at [newsapi.org](https://newsapi.org/register))
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone or download this project**
 
@@ -81,7 +81,7 @@ The bot implements a simple yet effective sentiment-based strategy:
    NEWS_API_KEY=your_actual_api_key_here
    ```
 
-## 💻 Usage
+##  Usage
 
 ### Run a Backtest (CLI)
 
@@ -110,13 +110,13 @@ Then open your browser to: **http://localhost:8050**
 
 ### Dashboard Features
 
-- 📊 **Performance Charts**: Compare strategy vs Buy & Hold
-- 📈 **Sentiment Timeline**: Visualize news sentiment over time
-- 🎯 **Trading Signals**: See buy/sell decisions on the chart
-- 📰 **Recent News**: View latest headlines with sentiment scores
-- 🎛️ **Interactive Controls**: Change symbols, periods, and capital
+-  **Performance Charts**: Compare strategy vs Buy & Hold
+-  **Sentiment Timeline**: Visualize news sentiment over time
+-  **Trading Signals**: See buy/sell decisions on the chart
+-  **Recent News**: View latest headlines with sentiment scores
+-  **Interactive Controls**: Change symbols, periods, and capital
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 The bot calculates comprehensive metrics:
 
@@ -126,7 +126,7 @@ The bot calculates comprehensive metrics:
 - **Win Rate**: Percentage of profitable trades
 - **Outperformance**: Strategy return vs Buy & Hold
 
-## 🎨 Dashboard Preview
+##  Dashboard Preview
 
 The dashboard features:
 - Modern dark theme (Cyborg)
@@ -136,7 +136,7 @@ The dashboard features:
 - Performance metrics cards
 - Recent news with sentiment scores
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit `.env` to customize:
 
@@ -152,7 +152,7 @@ DEFAULT_SYMBOL=AAPL            # Default stock symbol
 BACKTEST_DAYS=90               # Default backtest period
 ```
 
-## 🔧 Supported Symbols
+##  Supported Symbols
 
 ### Stocks
 - AAPL (Apple)
@@ -169,7 +169,7 @@ BACKTEST_DAYS=90               # Default backtest period
 
 *Any symbol supported by Yahoo Finance can be used!*
 
-## 📝 Example Output
+##  Example Output
 
 ```
 ============================================================
@@ -194,7 +194,7 @@ Final Buy & Hold Value: $10,832.00
 ============================================================
 ```
 
-## 🧠 How It Works
+##  How It Works
 
 1. **News Fetching**: Retrieves financial news from NewsAPI
 2. **Sentiment Analysis**: Analyzes headlines using DistilBERT NLP model
@@ -202,7 +202,7 @@ Final Buy & Hold Value: $10,832.00
 4. **Trade Execution**: Simulates buy/sell orders
 5. **Performance Tracking**: Calculates metrics and compares to benchmark
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **This is for educational purposes only!** 
 
@@ -211,7 +211,7 @@ Final Buy & Hold Value: $10,832.00
 - Do not use for real trading without proper risk management
 - Always do your own research before investing
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.8+**
 - **NewsAPI**: Financial news data
@@ -220,7 +220,7 @@ Final Buy & Hold Value: $10,832.00
 - **Plotly/Dash**: Interactive visualizations
 - **Pandas/NumPy**: Data processing
 
-## 📚 Project Structure
+##  Project Structure
 
 ```
 news-trading-bot/
@@ -236,11 +236,11 @@ news-trading-bot/
 └── README.md           # This file
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork, modify, and improve this project!
 
-## 📄 License
+##  License
 
 MIT License - feel free to use this project for learning and experimentation.
 
