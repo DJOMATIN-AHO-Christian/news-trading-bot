@@ -33,7 +33,7 @@ python start_dashboard.py
 
 Open **http://localhost:5000** in your browser.
 
-✅ **Done!** The bot now uses real news and sentiment analysis.
+Done! The bot now uses real news and sentiment analysis.
 
 ---
 
