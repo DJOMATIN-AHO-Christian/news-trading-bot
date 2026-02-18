@@ -1,8 +1,10 @@
 # Core dependencies
 newsapi-python
 yfinance
-transformers
-torch
+
+# Sentiment analysis (lightweight, no GPU required)
+# Replaces transformers + torch (~1GB) with VADER (~500KB)
+vaderSentiment
 
 # Data processing
 pandas
@@ -20,4 +22,3 @@ flask-cors
 # Utilities
 python-dotenv
 requests
-

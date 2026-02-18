@@ -21,9 +21,10 @@ class Config:
     DEFAULT_SYMBOL = os.getenv('DEFAULT_SYMBOL', 'AAPL')
     BACKTEST_DAYS = int(os.getenv('BACKTEST_DAYS', '90'))
     
-    # NLP Model Configuration
-    SENTIMENT_MODEL = 'distilbert-base-uncased-finetuned-sst-2-english'
-    
+    # NLP Configuration
+    # Using VADER (lightweight, no GPU, no model download required)
+    # Replaces transformers/DistilBERT (~1GB) with vaderSentiment (~500KB)
+
     # Dashboard Configuration
     DASHBOARD_HOST = '127.0.0.1'
     DASHBOARD_PORT = 8050
