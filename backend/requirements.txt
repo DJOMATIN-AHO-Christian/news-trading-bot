@@ -11,13 +11,14 @@ pandas
 numpy
 
 # Visualization
-plotly
-dash
-dash-bootstrap-components
+# plotly - Removed for lightweight backend
+# dash - Removed for lightweight backend
+# dash-bootstrap-components - Removed for lightweight backend
 
 # Web Server
 flask
 flask-cors
+gunicorn
 
 # Utilities
 python-dotenv
