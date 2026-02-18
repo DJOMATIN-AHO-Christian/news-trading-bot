@@ -1,0 +1,12 @@
+# Netlify deploys the static dashboard (HTML/JS/CSS) only.
+# The Python trading bot (main.py, api_server.py) must run on a separate server
+# (e.g., Railway, Render, Fly.io) and the dashboard fetches data from its API.
+
+[build]
+  publish = "dashboard"
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

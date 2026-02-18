@@ -1,0 +1,8 @@
+# Lightweight requirements for Netlify build (no GPU/ML packages)
+# The heavy packages (torch, transformers, nvidia-*) are excluded
+# because Netlify only serves the static dashboard.
+#
+# The Python backend (api_server.py) must run on a separate server.
+
+requests
+python-dotenv
